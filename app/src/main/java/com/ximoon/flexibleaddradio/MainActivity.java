@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 setData();
             }
         });
-        initData(10);
+        initData(5);
     }
 
     /**
