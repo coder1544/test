@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // This is original code by ximoon
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         vp = (ViewPager) findViewById(R.id.vp);
@@ -51,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 setData();
             }
         });
-        initData(10);
+        initData(5);
     }
 
     /**
